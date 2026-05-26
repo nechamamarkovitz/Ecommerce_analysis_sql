@@ -7,7 +7,6 @@ https://www.kaggle.com/datasets/hammadansari7/e-commerce-orders-and-customer
 This project was created as part of my portfolio to demonstrate SQL skills in business oriented data analysis.
 
 **Key Analyses**
-1. Profitability by Payment Method: Revenue per payment type, Cancellation rate, Average order value.
-                                                                                                         **Insights:** credit card and online shoping generate higher revenue, but it should be noted that credit cards have the highest cancellation rate of all other payment sources.
+1. Profitability by Payment Method: Revenue per payment type, Cancellation rate, Average order value. **#Insights:** credit card and online shoping generate higher revenue, but it should be noted that credit cards have the highest cancellation rate of all other payment sources.
 
 
