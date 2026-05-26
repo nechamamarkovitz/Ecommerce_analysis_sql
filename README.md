@@ -13,9 +13,14 @@ Profitability by:
 3. Coupon Impact: Comparison between coupon vs no coupon orders and Cancellation behavior.
 
 **Key Insights**
-1. credit card and online shoping generate higher revenue, but it should be noted that credit cards have the highest cancellation rate of all other payment sources.
-2. Marketing channels differ significantly in order value and it seems that the leading marketing channel in terms of the number of orders is Instagram.
-3. It can be seen that the amount of orders is higher when a coupon is used, but the cancellation rate is also higher.
+1. Credit card payments generate the highest revenue, but also exhibit the highest cancellation rate, indicating potential friction or post purchase behavior issues.
+2. Instagram is the leading referral source in terms of order volume, suggesting strong acquisition performance.
+3. Coupon usage increases the number of orders but is associated with higher cancellation rates, which may indicate lower purchase commitment among discounted orders.
+
+**Business Implications**
+1. High revenue payment methods should be optimized to reduce cancellation rates and improve transaction reliability.
+2. Marketing efforts via Instagram should be further analyzed for customer lifetime value, not only acquisition volume.
+3. Coupon strategies should be evaluated to balance between increasing sales and maintaining order quality.
 
 All queries are available in the file: Ecommerce_analysis.sql
 
