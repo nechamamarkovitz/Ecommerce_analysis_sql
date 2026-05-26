@@ -7,6 +7,7 @@ https://www.kaggle.com/datasets/hammadansari7/e-commerce-orders-and-customer
 This project was created as part of my portfolio to demonstrate SQL skills in business oriented data analysis.
 
 **Key Analyses**
+
 Profitability by: 
 1. Payment Method: Revenue per payment type, Cancellation rate and Average order value. 
 2. Marketing Channel: Revenue comparison across referral sources and Order volume differences. 
