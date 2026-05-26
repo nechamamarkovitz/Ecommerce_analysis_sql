@@ -9,6 +9,6 @@ This project was created as part of my portfolio to demonstrate SQL skills in bu
 **Key Analyses**
 1. Profitability by Payment Method: Revenue per payment type, Cancellation rate, Average order value
 
-**Key Insights:** credit card and online shoping generate higher revenue, but it should be noted that credit cards have the highest cancellation rate of all other payment sources.
+**Insights:** credit card and online shoping generate higher revenue, but it should be noted that credit cards have the highest cancellation rate of all other payment sources.
 
 
