@@ -10,7 +10,7 @@ This project was created as part of my portfolio to demonstrate SQL skills in bu
 Profitability by: 
 1. Payment Method: Revenue per payment type, Cancellation rate and Average order value. **#Insights:** credit card and online shoping generate higher revenue, but it should be noted that credit cards have the highest cancellation rate of all other payment sources.
 2. Marketing Channel: Revenue comparison across referral sources and Order volume differences. **#Insights:** Marketing channels differ significantly in order value and it seems that the leading marketing channel in terms of the number of orders is Instagram.
-3. Coupon Impact:Comparison between coupon vs no coupon orders and Cancellation behavior. **#Insights:** It can be seen that the amount of orders is higher when a coupon is used, but the cancellation rate is also higher.
+3. Coupon Impact: Comparison between coupon vs no coupon orders and Cancellation behavior. **#Insights:** It can be seen that the amount of orders is higher when a coupon is used, but the cancellation rate is also higher.
 
 All queries are available in the file: Ecommerce_analysis.sql
 
