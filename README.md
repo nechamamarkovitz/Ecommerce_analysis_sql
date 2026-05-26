@@ -28,3 +28,4 @@ Profitability by:
 **Live Dashboard:**
 https://ecommerce-dashboard-nechama.streamlit.app/
 
+![Dashboard](E-commerce Dashboard · Streamlit.pdf)
