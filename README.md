@@ -23,9 +23,10 @@ Profitability by:
 2. Marketing efforts via Instagram should be further analyzed for customer lifetime value, not only acquisition volume.
 3. Coupon strategies should be evaluated to balance between increasing sales and maintaining order quality.
 
-**All queries are available in the file: =** Ecommerce_analysis.sql
+**All queries are available in the file:** Ecommerce_analysis.sql
 
 **Live Dashboard:**
 https://ecommerce-dashboard-nechama.streamlit.app/
 
 **Dashboard Preview**
+![Dashboard](dashboard.png)
