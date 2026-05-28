@@ -29,4 +29,4 @@ Profitability by:
 https://ecommerce-dashboard-nechama.streamlit.app/
 
 **Dashboard Preview**
-![Dashboard](Dashboard.png)
+![Dashboard](EcommerceDashboard.png)
