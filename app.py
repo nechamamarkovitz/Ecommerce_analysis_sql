@@ -91,9 +91,7 @@ payment_fig = go.Figure()
 
 # Revenue bars
 for coupon in payment_data["CouponStatus"].unique():
-
     subset = payment_data[payment_data["CouponStatus"] == coupon]
-
     payment_fig.add_trace(
         go.Bar(
             x=subset["PaymentMethod"],
@@ -105,9 +103,7 @@ for coupon in payment_data["CouponStatus"].unique():
 
 # Cancellation rate lines
 for coupon in payment_data["CouponStatus"].unique():
-
     subset = payment_data[payment_data["CouponStatus"] == coupon]
-
     payment_fig.add_trace(
         go.Scatter(
             x=subset["PaymentMethod"],
@@ -122,22 +118,12 @@ for coupon in payment_data["CouponStatus"].unique():
 # Layout
 payment_fig.update_layout(
     title="Revenue & Cancellation Rate by Payment Method and Coupon Usage",
-
     barmode="group",
-
     width=850,
     height=450,
-
     margin=dict(r=220),
-    
-    xaxis=dict(
-        title="Payment Method"
-    ),
-
-    yaxis=dict(
-        title="Revenue"
-    ),
-
+    xaxis=dict(title="Payment Method"),
+    yaxis=dict(title="Revenue"),
     yaxis2=dict(
         title="Cancellation Rate",
         overlaying="y",
@@ -145,13 +131,7 @@ payment_fig.update_layout(
         tickformat=".0%",
         range=[0, 1]
     ),
-    
-    legend=dict(
-        x=1.15,          
-        y=1,
-        xanchor="left",
-        yanchor="top"
-    )
+    legend=dict(x=1.15, y=1, xanchor="left", yanchor="top")
 )
 
 st.plotly_chart(payment_fig, use_container_width=False)
