@@ -170,9 +170,7 @@ referral_fig = go.Figure()
 
 # Revenue bars
 for coupon in referral_data["CouponStatus"].unique():
-
     subset = referral_data[referral_data["CouponStatus"] == coupon]
-
     referral_fig.add_trace(
         go.Bar(
             x=subset["ReferralSource"],
@@ -184,9 +182,7 @@ for coupon in referral_data["CouponStatus"].unique():
 
 # Cancellation rate lines
 for coupon in referral_data["CouponStatus"].unique():
-
     subset = referral_data[referral_data["CouponStatus"] == coupon]
-
     referral_fig.add_trace(
         go.Scatter(
             x=subset["ReferralSource"],
@@ -201,22 +197,12 @@ for coupon in referral_data["CouponStatus"].unique():
 # Layout
 referral_fig.update_layout(
     title="Revenue & Cancellation Rate by Referral Source and Coupon Usage",
-
     barmode="group",
-
     width=850,
     height=450,
-
-    margin=dict(r=220),
-    
-    xaxis=dict(
-        title="Referral Source"
-    ),
-
-    yaxis=dict(
-        title="Revenue"
-    ),
-
+    margin=dict(r=220),    
+    xaxis=dict(title="Referral Source"),
+    yaxis=dict(title="Revenue"),
     yaxis2=dict(
         title="Cancellation Rate",
         overlaying="y",
@@ -224,13 +210,7 @@ referral_fig.update_layout(
         tickformat=".0%",
         range=[0, 1]
     ),
-    
-    legend=dict(
-        x=1.15,          
-        y=1,
-        xanchor="left",
-        yanchor="top"
-    )
+    legend=dict(x=1.15, y=1, xanchor="left", yanchor="top")
 )
 
 st.plotly_chart(referral_fig, use_container_width=False)
