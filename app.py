@@ -139,7 +139,7 @@ st.plotly_chart(payment_fig, use_container_width=False)
 insight_box("""
 <b>Key Insight:</b><br>
 We observe differences in revenue contribution between payment methods depending on coupon usage. This may indicate that discounts affect purchasing behavior differently across payment types.<br>
-in adission, it can be seen that credit card payments generate the highest revenue, but also exhibit the highest cancellation rate, indicating potential post purchase behavior issues.
+Additionally, credit card payments generate the highest revenue but also exhibit the highest cancellation rate, indicating potential post-purchase behavior issues.
 """)
 
 # Revenue + cancellation data
